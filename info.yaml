@@ -20,7 +20,7 @@ pinout:
   ui[1]: "Connected to mux1: A of AND gate A"
   ui[2]: "Connected to mux1: B of AND gate A"
   ui[3]: ""
-  ui[4]: "Connected to flop1: D of Flip-Flop D A"
+  ui[4]: "Connected to or1: B to OR gate A"
   ui[5]: "Connected to mux1: A of MUX gate A"
   ui[6]: "Connected to mux1: B of MUX gate A"
   ui[7]: "Connected to mux1: SEL of MUX gate A"
@@ -32,8 +32,8 @@ pinout:
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
-  uo[6]: "Receives flop1: Q from Flip-Flop D A"
-  uo[7]: "Receives flop1: NOTQ from Flip-Flop D A"
+  uo[6]: ""
+  uo[7]: "Receives or1: OUT from OR gate A"
 
   # Bidirectional pins
   uio[0]: ""
@@ -46,7 +46,7 @@ pinout:
   uio[7]: ""
 
  # In circuit:
- Connection 1: "and1: OUT for AND gate A connects to flop1: CLK of Flip-Flop D A"
+ Connection 1: "and1: OUT for AND gate A connects to or: A of OR gate A"
 
 # Do not change!
 yaml_version: 6
