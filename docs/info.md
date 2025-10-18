@@ -21,6 +21,6 @@ An OR gate is connected to the output of the MUX gate and ui[4], with uo[6] reci
 Use switches attached to see if the above behaviour is occuring. 
 
 ## External hardware
-&-segment
+&-segment sdfsdfdsfdsfdsfsfsfs
 
 
