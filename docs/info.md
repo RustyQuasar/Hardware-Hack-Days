@@ -18,8 +18,8 @@ An OR gate is connected to the output of the MUX gate and ui[4], with uo[6] reci
 
 ## How to test
 
-Explain how to use your project
+Use switches attached to see if the above behaviour is occuring. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+
