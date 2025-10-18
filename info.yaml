@@ -45,5 +45,8 @@ pinout:
   uio[6]: ""
   uio[7]: ""
 
+ # In circuit:
+ Connection 1: "and1: OUT for AND gate A connects to flop1: CLK of Flip-Flop D A"
+
 # Do not change!
 yaml_version: 6
