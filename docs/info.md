@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Uses Flip-Flop D, AND gates, Inverted gates, and MUX gates.
+Uses an OR gate, AND gate, Inverted gate, and a MUX gate.
 
 An Inverted gate is connected to ui[0] and is recieved by uo[0], any input will be inverted.
 An AND gate is connected to ui[1] and ui[2], but is received by uo[2]. Unless both inputs are 1, uo[2] will recieve 0.
